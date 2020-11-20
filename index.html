@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jumbotron</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="box-area">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="#">Marque</a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Page 1</a>
+                            <ul>
+                                <li class="sous-list"><a href="#">Sous-page 1</a></li>
+                                <li class="sous-list"><a href="#">Sous-page 2</a></li>
+                                <li class="sous-list"><a href="#">Sous-page 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="banner-area">
+            <h2>Jumbotron</h2>
+            <p>Ceci est un jumbotron, je lui ai ajouter un effet qu'on appelle parallax. L'image de fond a été changée dans le CSS</p>
+            <button>Plus d'info sur W3School</button>
+        </div>
+
+        <div class="content-area">
+            <aside>
+                <ul>
+                    <li>Capgemini</li>
+                    <li>Linkedln</li>
+                    <li>Je Suis Un Dev</li>
+                </ul>
+            </aside>
+            <div class="wrapper">
+                <h3>Article</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, esse est iste magni reprehenderit saepe sint! Assumenda consectetur fugit sit tempore. Architecto blanditiis deleniti, est fuga iusto perspiciatis suscipit voluptatibus!
+                        Ad alias assumenda autem deleniti esse est excepturi hic itaque, magnam magni nam officia provident quae recusandae reiciendis rem sed. Adipisci animi aut autem deserunt dolore, ea eius error ex facilis inventore ipsum minus modi
+                        nihil nostrum nulla, obcaecati porro reprehenderit repudiandae sed sint sunt tempore vero. At dolores doloribus, dolorum ea eaque hic ipsa iusto libero minus natus neque nisi nobis nostrum odio optio pariatur perspiciatis praesentium
+                        rerum sapiente.
+                    </p>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="wrapper">
+                <h3>Article</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, esse est iste magni reprehenderit saepe sint! Assumenda consectetur fugit sit tempore. Architecto blanditiis deleniti, est fuga iusto perspiciatis suscipit voluptatibus!
+                        Ad alias assumenda autem deleniti esse est excepturi hic itaque, magnam magni nam officia provident quae recusandae reiciendis rem sed. Adipisci animi aut autem deserunt dolore, ea eius error ex facilis inventore ipsum minus modi
+                        nihil nostrum nulla, obcaecati porro reprehenderit repudiandae sed sint sunt tempore vero. At dolores doloribus, dolorum ea eaque hic ipsa iusto libero minus natus neque nisi nobis nostrum odio optio pariatur perspiciatis praesentium
+                        rerum sapiente.
+                    </p>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="wrapper">
+                <h3>Article</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, esse est iste magni reprehenderit saepe sint! Assumenda consectetur fugit sit tempore. Architecto blanditiis deleniti, est fuga iusto perspiciatis suscipit voluptatibus!
+                        Ad alias assumenda autem deleniti esse est excepturi hic itaque, magnam magni nam officia provident quae recusandae reiciendis rem sed. Adipisci animi aut autem deserunt dolore, ea eius error ex facilis inventore ipsum minus modi
+                        nihil nostrum nulla, obcaecati porro reprehenderit repudiandae sed sint sunt tempore vero. At dolores doloribus, dolorum ea eaque hic ipsa iusto libero minus natus neque nisi nobis nostrum odio optio pariatur perspiciatis praesentium
+                        rerum sapiente.
+                    </p>
+            </div>
+            <form name="contactForm">
+                <h2>Formulaire d'inscription</h2>
+                <div class="row">
+                    <label>Pseudo</label>
+                    <input type="text" name="name" class="textInForm" required>
+                    <div class="error" id="errorName"></div>
+                </div>
+                <div class="row">
+                    <label>Adresse email</label>
+                    <input type="text" name="email" class="textInForm" required>
+                    <div class="error" id="errorEmail"></div>
+                </div>
+                <div class="row">
+                    <label for="password2">Mot de passe:</label>
+                    <input type="password" name="password" id="password2" class="textInForm" required onkeyup="passwordConfirmation();">
+                </div>
+                <div class="row">
+                    <label for="confirm2">Confirmation du mot de passe:</label>
+                    <input type="password" name="confirm" id="confirm2" class="textInForm" required onkeyup="passwordConfirmation();">
+                    <span id="confirmMess2" class="confirmMess"></span>
+                </div>
+                <div class="row">
+                    <button type="submit" id="submitBtn">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>Copyright David Saniez 2itech Academy 2020</footer>
+
+</body>
+
+</html>
